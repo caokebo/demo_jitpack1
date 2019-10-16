@@ -19,6 +19,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://jitpack.io'
+//            credentials { 'caokebo' 'jp_5n7gfd0rqc6f27n3b2sqissov7' }
+        }
     }
 }
 
